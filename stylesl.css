@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('res/background2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    color: #ccc; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+header {
+    background-color: #05011dea;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+header .logo img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+
+
+.signin-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px auto;
+    box-sizing: border-box;
+    
+}
+
+.signin-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    text-align: left;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: flex-start;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1b8fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.qr-code {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.qr-code img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.new-to-keyhub {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.new-to-keyhub a {
+    color: #1b8fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.new-to-keyhub a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #05011dea;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer-content .logo img {
+    height: 24px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.footer-content a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #cccccc;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.footer-links a img {
+    height: 20px;
+    vertical-align: middle;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    header .logo {
+        margin-bottom: 20px;
+    }
+
+    .signin-container {
+        width: 90%;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .new-to-keyhub {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    .signin-box h2 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+.background-section {
+    height: 100vh; /* Full viewport height */
+    background-image: url('res/background2.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
